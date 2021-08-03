@@ -9,6 +9,7 @@ public class Sol010 {
 		int num = scanner.nextInt();
 		System.out.println(num);
 		
+		scanner.close();
 	}
 
 }
