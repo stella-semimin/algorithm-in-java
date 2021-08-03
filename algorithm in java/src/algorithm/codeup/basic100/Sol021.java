@@ -7,7 +7,7 @@ public class Sol021 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-//수정중
+//수정중  
 	
 	}
 
