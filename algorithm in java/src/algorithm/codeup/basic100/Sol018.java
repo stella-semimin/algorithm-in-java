@@ -9,7 +9,6 @@ public class Sol018 {
 		String time[] = scanner.next().split(":");
 		System.out.println(time[0]+":"+time[1]);
 		scanner.close();
-	
 	}
 
 }

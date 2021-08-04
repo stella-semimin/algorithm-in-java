@@ -2,16 +2,17 @@ package algorithm.codeup.basic100;
 
 import java.util.Scanner;
 
-public class Sol021 {
-
+public class Sol026 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String a = scanner.next();
-		System.out.println(a);
+		String time = scanner.nextLine();
+		String arr[] = time.split(":");
+		String a = arr[1];
+		int b = Integer.parseInt(a);
 		
+		System.out.println(b);
 		scanner.close();
 	}
-
 }
 
 // %d (10진수 형식)

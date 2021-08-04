@@ -2,16 +2,14 @@ package algorithm.codeup.basic100;
 
 import java.util.Scanner;
 
-public class Sol021 {
-
+public class Sol030 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String a = scanner.next();
-		System.out.println(a);
-		
+		long a = scanner.nextLong();
+		System.out.printf("%d", a);
+
 		scanner.close();
 	}
-
 }
 
 // %d (10진수 형식)
@@ -23,4 +21,3 @@ public class Sol021 {
 // %o, %x(8진수, 16진수 형식)
 
 // scanner.next().split(나눌 문자);
-
