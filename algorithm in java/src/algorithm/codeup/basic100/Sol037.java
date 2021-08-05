@@ -2,13 +2,12 @@ package algorithm.codeup.basic100;
 
 import java.util.Scanner;
 
-public class Sol030 {
+public class Sol037 {
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
-		long a = scanner.nextLong();
-		System.out.printf("%d", a);
-
+		int num = scanner.nextInt();
+		char alpa = (char)num;
+		System.out.printf("%c",alpa);
 		scanner.close();
 	}
 }

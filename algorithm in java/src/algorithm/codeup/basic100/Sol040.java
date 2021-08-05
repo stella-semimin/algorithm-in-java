@@ -2,17 +2,15 @@ package algorithm.codeup.basic100;
 
 import java.util.Scanner;
 
-public class Sol030 {
+public class Sol040 {
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
-		long a = scanner.nextLong();
-		System.out.printf("%d", a);
-
+		int a = scanner.nextInt();
 		scanner.close();
+		System.out.println(-a);
+
 	}
 }
-
 // %d (10진수 형식)
 // %s (문자열 형식)
 // %f (실수형 형식)
